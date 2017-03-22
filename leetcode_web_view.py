@@ -23,7 +23,6 @@ class WebView:
         self.view.load_uri(self.client.get_random_problem())
 
     def on_key_press_event(self, widget, event):
-        ctrl = (event.state & Gdk.ModifierType.CONTROL_MASK)
         # see if we recognise a keypress
         if event.keyval == Gdk.KEY_F5:
             self.update_view()

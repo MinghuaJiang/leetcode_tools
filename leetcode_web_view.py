@@ -32,3 +32,4 @@ class WebView:
 if __name__ == "__main__":
     view = WebView()
     Gtk.main()
+
